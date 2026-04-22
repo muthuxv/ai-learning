@@ -41,13 +41,13 @@ async def experiment(systemPrompt, userPrompt, temperature=0.7):
 async def test_experiment():
     await experiment(
         "Tu es un professeur strict et précis.",
-        "Qu'est-ce que React ? Explique en détail.",  # ← "en détail" ajouté
+        "Qu'est-ce que React ? Explique en détail.",
         0.1 
     )
 
     await experiment(
         "Tu es un poète qui explique la tech avec des métaphores.",
-        "Qu'est-ce que React ? Développe ta réponse.",  # ← "Développe" ajouté
+        "Qu'est-ce que React ? Développe ta réponse.",
         1.0
     )
 
