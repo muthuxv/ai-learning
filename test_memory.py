@@ -49,4 +49,4 @@ if __name__ == "__main__":
         chat_with_memory()
     except:
         print("❌ Le serveur n'est pas lancé !")
-        print("Lance d'abord: python server_with_memory.py")
+        print("Lance d'abord: python server.py")
